@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Savage Burgers | Street Food</title>
+    <meta name="description" content="Las mejores hamburguesas urbanas. Sabor callejero, actitud salvaje.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;600;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">SAVAGE BURGERS</a>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="#nosotros">El Barrio</a></li>
+                <li><a href="#pedir" class="btn btn-primary">Pedir Ahora</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="inicio" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="glitch">PURA ACTITUD,<br><span class="text-accent">CERO REGLAS.</span></h1>
+            <p class="fade-in delay-1">Smash burgers con el auténtico sabor de la calle. Pan potato roll, carne 100% res
+                y costra perfecta.</p>
+            <div class="hero-buttons fade-in delay-2">
+                <a href="#menu" class="btn btn-primary">Ver Menú</a>
+                <a href="#pedidos" class="btn btn-outline">Ubicaciones</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="marquee-container">
+        <div class="marquee">
+            <span>🍔 DOBLE CARNE 🍔 QUESO FUNDIDO 🍔 BACON CRUJIENTE 🍔 SALSA SECRETA 🍔 SMASH PERFECTO 🍔</span>
+            <span>🍔 DOBLE CARNE 🍔 QUESO FUNDIDO 🍔 BACON CRUJIENTE 🍔 SALSA SECRETA 🍔 SMASH PERFECTO 🍔</span>
+        </div>
+    </div>
+
+    <section id="nosotros" class="section about">
+        <div class="container dual-col">
+            <div class="image-content fade-in">
+                <div class="image-wrapper brutalist-shadow">
+                    <img src="https://images.unsplash.com/photo-1550547660-d9450f859349?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                        alt="Burger culture" id="img-about">
+                </div>
+            </div>
+            <div class="text-content fade-in delay-1">
+                <span class="subtitle">Directo del bloque</span>
+                <h2>Sabor Callejero</h2>
+                <p>Nacimos en la calle y traemos el ruido a cada mordida. No hacemos comida aburrida, hacemos
+                    hamburguesas que te ensucian las manos y te hacen volver por más.</p>
+                <p>Ingredientes frescos, actitud rebelde y una plancha que no para de sonar. Bienvenido a la revolución
+                    del smash.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="section menu-preview">
+        <div class="container">
+            <div class="section-header center fade-in">
+                <span class="subtitle">Para el hambre</span>
+                <h2>Menú Salvaje</h2>
+            </div>
+
+            <div class="carousel-container mt-2 fade-in">
+                <div class="carousel-track" id="menuCarousel">
+                    <div class="carousel-slide">
+                        <div class="menu-item card brutalist-shadow">
+                            <img src="images/descarga.jpg" alt="La Clásica Salvaje">
+                            <div class="card-content">
+                                <h3>La Clásica Salvaje</h3>
+                                <p>Doble patty smash, doble queso cheddar, cebolla caramelizada, pickles y nuestra salsa
+                                    secreta.</p>
+                                <span class="price">$12</span>
+                                <a href="#" class="btn btn-primary small-btn">Agregar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-slide">
+                        <div class="menu-item card brutalist-shadow">
+                            <img src="images/images.jpg" alt="Bacon Beast">
+                            <div class="card-content">
+                                <h3>Bacon Beast</h3>
+                                <p>Triple patty smash, extra bacon ahumado, mermelada de tocino, queso pepper jack y
+                                    salsa BBQ.</p>
+                                <span class="price">$16</span>
+                                <a href="#" class="btn btn-primary small-btn">Agregar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-slide">
+                        <div class="menu-item card brutalist-shadow">
+                            <img src="images/descarga (1).jpg" alt="Spicy Inferno">
+                            <div class="card-content">
+                                <h3>Spicy Inferno</h3>
+                                <p>Doble patty, jalapeños encurtidos, queso suizo, aros de cebolla y habanero mayo.</p>
+                                <span class="price">$14</span>
+                                <a href="#" class="btn btn-primary small-btn">Agregar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-slide">
+                        <div class="menu-item card brutalist-shadow">
+                            <img src="images/images (1).jpg" alt="Smash Trufada">
+                            <div class="card-content">
+                                <h3>Smash Trufada</h3>
+                                <p>Pan brioche, carne smash, queso gouda, setas salteadas y mayonesa de trufa negra.</p>
+                                <span class="price">$18</span>
+                                <a href="#" class="btn btn-primary small-btn">Agregar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-slide">
+                        <div class="menu-item card brutalist-shadow">
+                            <img src="images/images (2).jpg" alt="Pollo Callejero">
+                            <div class="card-content">
+                                <h3>Pollo Callejero</h3>
+                                <p>Pechuga frita extra crujiente, ensalada de col, pepinillos y salsa buffalo picante
+                                    urbana.</p>
+                                <span class="price">$13</span>
+                                <a href="#" class="btn btn-primary small-btn">Agregar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-controls fade-in delay-2">
+                    <button class="carousel-btn" id="prevBtn">&#8592;</button>
+                    <button class="carousel-btn" id="nextBtn">&#8594;</button>
+                </div>
+
+            </div>
+            <div class="center mt-2 fade-in">
+                <a href="#" class="btn btn-outline" style="font-size: 1.2rem; padding: 1.2rem 3rem;">Ver Todo el
+                    Menú</a>
+            </div>
+        </div>
+    </section>
+
+    <footer id="reservas" class="footer">
+        <div class="container dual-col">
+            <div class="footer-info fade-in">
+                <h2 class="logo-footer">SAVAGE BURGERS</h2>
+                <p>Abierto de Martes a Domingo<br>12:00 PM - 12:00 AM</p>
+                <p>Calle Falsa 123, Barrio Urbano, CDMX</p>
+            </div>
+            <div class="footer-contact fade-in delay-1">
+                <h3>Conecta</h3>
+                <p>holasavage@savageburgers.com</p>
+                <div class="socials">
+                    <a href="#">IG</a>
+                    <a href="#">TK</a>
+                    <a href="#">FB</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom center">
+            <p>&copy; 2026 Savage Burgers. Sin reglas, solo buen sabor.</p>
+        </div>
+    </footer>
+    <script>
+        const observerOptions = {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.fade-in, .card, .image-wrapper').forEach(el => {
+            observer.observe(el);
+        });
+
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                nav.classList.add('scrolled');
+            } else {
+                nav.classList.remove('scrolled');
+            }
+        });
+
+        // Carousel Logic
+        const track = document.getElementById('menuCarousel');
+        const slides = Array.from(track.children);
+        const nextButton = document.getElementById('nextBtn');
+        const prevButton = document.getElementById('prevBtn');
+        let currentSlideIndex = 0;
+        let slideInterval;
+
+        function updateCarousel() {
+            let visibleSlides = 3;
+            if (window.innerWidth <= 900) visibleSlides = 2;
+            if (window.innerWidth <= 600) visibleSlides = 1;
+
+            const maxIndex = Math.max(0, slides.length - visibleSlides);
+            if (currentSlideIndex > maxIndex) {
+                currentSlideIndex = maxIndex;
+            } else if (currentSlideIndex < 0) {
+                currentSlideIndex = 0;
+            }
+
+            const slideWidth = slides[0].getBoundingClientRect().width;
+            const gap = parseFloat(getComputedStyle(track).gap) || 0;
+            const amountToMove = currentSlideIndex * (slideWidth + gap);
+            track.style.transform = 'translateX(-' + amountToMove + 'px)';
+        }
+
+        function moveToNextSlide() {
+            let visibleSlides = 3;
+            if (window.innerWidth <= 900) visibleSlides = 2;
+            if (window.innerWidth <= 600) visibleSlides = 1;
+
+            const maxIndex = Math.max(0, slides.length - visibleSlides);
+            currentSlideIndex++;
+            if (currentSlideIndex > maxIndex) {
+                currentSlideIndex = 0; // Loop back to start
+            }
+            updateCarousel();
+        }
+
+        function moveToPrevSlide() {
+            currentSlideIndex--;
+            if (currentSlideIndex < 0) {
+                let visibleSlides = 3;
+                if (window.innerWidth <= 900) visibleSlides = 2;
+                if (window.innerWidth <= 600) visibleSlides = 1;
+                currentSlideIndex = Math.max(0, slides.length - visibleSlides); // Loop to end
+            }
+            updateCarousel();
+        }
+
+        nextButton.addEventListener('click', () => {
+            moveToNextSlide();
+            resetInterval();
+        });
+
+        prevButton.addEventListener('click', () => {
+            moveToPrevSlide();
+            resetInterval();
+        });
+
+        function startInterval() {
+            slideInterval = setInterval(moveToNextSlide, 3500); // Change slide every 3.5 seconds
+        }
+
+        function resetInterval() {
+            clearInterval(slideInterval);
+            startInterval();
+        }
+
+        window.addEventListener('resize', updateCarousel);
+
+        // Wait for fonts and images to load before initial layout, to avoid width bugs
+        window.addEventListener('load', () => {
+            updateCarousel();
+            startInterval();
+        });
+    </script>
+</body>
+
+</html>
